@@ -1,0 +1,351 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  height: 100vh;
+  width:100%;
+}
+html {
+  font-size: 62.5%;
+}
+header {
+  font-weight: 800;
+  font-size: 1rem;
+  max-width: 100%;
+  max-height: 65px;
+  display: flex;
+  justify-content: space-between;
+}
+ul,
+ol {
+  list-style-type: none;
+}
+.header-link {
+  text-decoration: none;
+  color: black;
+  margin-right: 1em;
+  justify-content: center;
+}
+.for-header-ul {
+  display: flex;
+  margin-top: 2.3em;
+}
+.burger-nav {
+  margin-left: 2.4em;
+  margin-top: 2.3em;
+  margin-right: 2.3em;
+}
+h4 {
+  font-family: "Dela Gothic One", cursive;
+  margin-left: 2.4em;
+  margin-top: 2.3em;
+  font-weight: 900;
+}
+.home-button-logo {
+  text-decoration: none;
+  color: #000000;
+}
+.for-main {
+  text-align: center;
+  font-weight: 900;
+  font-family: Arial, Helvetica, sans-serif;
+  border: 1px solid white;
+  border-left-width: 5em;
+  border-right-width: 5em;
+  margin-top: 0.3em;
+}
+.main-paragraph {
+  margin-top: 1em;
+  text-align: center;
+  font-weight: 400;
+  border: 1px solid white;
+  border-left-width: 10em;
+  border-right-width: 10em;
+}
+header .for-header-ul {
+  display: none;
+}
+.action-button {
+  display: none;
+  margin-top: 2em;
+  margin-right: 1.8em;
+  width: 5em;
+}
+.action-button-small {
+  width: 4em;
+}
+.for-the-action {
+  text-align: center;
+  margin-top: 1.3em;
+}
+.for-the-action-p {
+  font-weight: 600;
+  margin-top: 0.4em;
+}
+.for-mobile {
+  text-align: center;
+  width: 100%;
+  height: auto;
+  margin-top: 1.3em;
+}
+.tab,
+.tab-l,
+.pc {
+  display: none;
+}
+.child-1 {
+  text-align: center;
+}
+.action-button-small {
+  margin-top: 1.3em;
+}
+.additional {
+  display:none;
+}
+.section-3 {
+  background-color:black;
+  width:100%;
+  height:auto;
+}
+.section-3-image {
+  text-align:center;
+  justify-content:center;
+}
+.section-3-headline {
+  color:white;
+  text-align:center;
+}
+
+/* Features */
+
+.section-2 {
+  background-color: #f3f3f3;
+  width: 100%;
+  height: auto;
+  margin-top: 2em;
+  font-family: inherit;
+}
+h3 {
+  margin-left: 0.7em;
+}
+.for-features {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 1em;
+}
+.feature-1-p {
+  text-align: center;
+  padding: 1em 10em;
+}
+.sec-3 {
+  margin-top:1em;
+}
+.section-3 {
+  margin-top:1em;
+  width:100%;
+  height:auto;
+}
+h2 {
+  padding:1em 4em;
+}
+.section-3-text {
+  color:white;
+  text-align:center;
+}
+.section-3-p-2 {
+  padding:0.2em 5em;
+  padding-bottom:1.3em;
+}
+.section-3-p {
+  padding:1em 8em;
+}
+.section-img {
+  margin-top:1.3em;
+  width:50%
+}
+.for-footer {
+  width:100%;
+  height:auto;
+}
+.footer-list {
+  margin-left:6em;
+}
+.footer-list-head {
+  margin-bottom:0.5em;
+}
+.footer-list-1 {
+ margin-top:1em;
+}
+.footer-h {
+  text-align:center;
+  color:white;
+}
+footer {
+  background-color:black;
+  width:100%;
+  color:white;
+  display:flex;
+  font-size:1.5vw;
+}
+.footer-list-2-head {
+  margin-bottom:0.5em;
+  margin-left:10em;
+}
+.footer-list-2,
+.footer-list-3 {
+  margin-top:1em;
+  margin-left:10em;
+}
+.footer {
+  background-color:black;
+}
+.footer-logo {
+  font-family: "Dela Gothic One", cursive;
+  text-align:center;
+  font-weight: 900;
+  color:white;
+}
+.footer-list-3-head {
+  margin-bottom:0.5em;
+  margin-left:10em;
+}
+
+@media all and (width>744px) {
+  html {
+    font-size: 14px;
+  }
+  .burger-nav {
+    display: none;
+  }
+  .for-header-ul {
+    display: none;
+  }
+  header .for-header-ul {
+    display: flex;
+  }
+  .action-button {
+    display: flex;
+  }
+  .action-button-small {
+    margin-top: 1.3em;
+  }
+  .tab-l,
+  .mob,
+  .pc {
+    display: none;
+  }
+  .tab {
+    display: inline-block;
+    text-align: center;
+  }
+  .child-1 {
+    text-align: center;
+  }
+}
+@media all and (width>1024px) {
+  html {
+    font-size: 16px;
+  }
+  .for-the-action {
+    display: flex;
+    justify-content: center;
+  }
+  .for-the-action-p {
+    display: inline-block;
+    margin-left: 0.5em;
+  }
+  .action-button-small {
+    margin-top: 1.3em;
+  }
+  .tab,
+  .mob,
+  .pc {
+    display: none;
+  }
+  .tab-l {
+    display: inline-block;
+    text-align: center;
+  }
+  .child-1 {
+    text-align: center;
+  }
+  .section-2 {
+    display: none;
+  }
+  .additional {
+    background-color:#F3F3F3;
+    width:100%
+    height:auto;
+    display:grid;
+    grid-template-columns:1fr 1fr 1fr;
+    margin-top:2em;
+    grid-gap:3%;
+  }
+  .wrap {
+    display:flex;
+    align-items:center;
+  }
+  .section-3 {
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows:1fr;
+  }
+  .section-3-image {
+    grid-column:1 /-1;
+  }
+  .section-3-headline {
+    grid-area:"third"
+    display:block;
+  }
+  .section-3-text {
+    grid-area:"third"
+  }
+}
+
+@media all and (min-width: 1440px) {
+  html {
+    font-size: 18px;
+  }
+  .mob,
+  .tab,
+  .tab-l {
+    display: none;
+  }
+  .pc {
+    display: inline-block;
+    text-align: center;
+  }
+  .section-1 {
+    display: flex;
+    margin: 3em 2em;
+  }
+  .child-1 {
+    text-align: center;
+    margin-top: 4em;
+  }
+  .action-button-small {
+    margin-top: 1.3em;
+  }
+.section-3 {
+  display:grid;
+  grid-template-columns:1fr 2fr ;
+  grid-template-rows:60% 40%;
+}
+.section-3-image {
+  grid-column:1 / 2;
+  grid-row: 1 / -1;
+}
+.section-3-headline {
+  grid-column: 2 / -1;
+  grid-row: 1 / 2
+}
+.section-3-text {
+  grid-column: 2/3;
+  grid-row: 2 / -1
+}
+.section-3-p-2 {
+  margin-bottom:6em;
+}
